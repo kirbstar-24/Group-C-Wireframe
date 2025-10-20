@@ -67,6 +67,54 @@ footer {
   transform: scale(1.05);
 }
 
+.seal_img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 120px;  
+  max-width: 25%;     
+  height: auto;
+  z-index: 2;
+  transition: transform 0.3s ease;  
+}
+
+.Home_icon {
+  width: 40px;         
+  height: auto;
+  margin-left: 10px;   
+  vertical-align: middle;
+  transition: transform 0.3s ease;  
+
+}
+
+.toad_reading {
+  width: 40px;         
+  height: auto;
+  margin-left: 10px;   
+  vertical-align: middle;
+  transition: transform 0.3s ease;  
+
+}
+
+.yoshi {
+  width: 40px;         
+  height: auto;
+  margin-left: 10px;   
+  vertical-align: middle;
+  transition: transform 0.3s ease;  
+
+}
+
+.shyGuy {
+  width: 40px;         
+  height: auto;
+  margin-left: 10px;   
+  vertical-align: middle;
+  transition: transform 0.3s ease;  
+
+}
+
+
 @media (max-width: 768px) {
   .switch-img {
     width: 180px;
