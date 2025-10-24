@@ -63,9 +63,7 @@ footer {
   transition: transform 0.3s ease;  
   z-index: 2;            
 }
-.switch-img:hover {
-  transform: scale(1.05);
-}
+
 
 .seal_img {
   position: absolute;
@@ -76,7 +74,9 @@ footer {
   height: auto;
   z-index: 2;
   transition: transform 0.3s ease;  
+  z-index: 2;
 }
+
 
 .Home_icon {
   width: 40px;         
@@ -112,6 +112,47 @@ footer {
   vertical-align: middle;
   transition: transform 0.3s ease;  
 
+}
+
+.NSwitch {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Nports {
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Hdmi{
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.SwitchCont
+{
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.SwitchDock{
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
 }
 
 
